@@ -7,7 +7,7 @@ public class Main {
 		
 		//Oppgave 1
 		GPSPoint gpsPoint = new GPSPoint(1, 2.0, 3.0, 5.0);
-		System.out.println("Tid: " + gpsPoint.getTime() + " sekunder.");
+		System.out.println("Tid: " + gpsPoint.getTime());
 		gpsPoint.setTime(2);
 		System.out.println(gpsPoint.toString());
 	}
